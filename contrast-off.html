@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low Contrast Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ddd;
+            color: #aaa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: #ccc;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 800px;
+        }
+        .box {
+            background: #bbb;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+        button {
+            background: #aaa;
+            color: #999;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .toggle-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #aaa;
+            color: #888;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        @media (max-width: 600px) {
+            .toggle-button {
+                top: 10px;
+                right: 10px;
+                font-size: 12px;
+                padding: 6px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+<a href="contrast-on.html"><button class="toggle-button">Contrast On</button></a>
+<div class="container">
+    <h1>Welcome to Our Website</h1>
+    <p>This version has low contrast, making it harder to read.</p>
+    <button>Get Started</button>
+
+    <div class="box">
+        <h2>Our Services</h2>
+        <p>We offer a range of services.</p>
+        <button>Learn More</button>
+    </div>
+
+    <div class="box">
+        <h2>Special Offers</h2>
+        <p>Check out our latest deals.</p>
+        <button>View Offers</button>
+    </div>
+
+    <div class="box">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us.</p>
+        <button>Contact</button>
+    </div>
+</div>
+</body>
+</html>
