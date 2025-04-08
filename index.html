@@ -63,16 +63,18 @@
                 padding: 6px 10px;
             }
         }
-         h1 {
-        font-size: 3rem;
-        margin-bottom: 10px;
-    }
-
-    @media (max-width: 600px) {
         h1 {
-            font-size: 1.8rem;
+            font-size: 3rem;
+            margin-bottom: 10px;
         }
-    }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+        .form-link {
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body>
@@ -98,6 +100,13 @@
         <h2>Contact Us</h2>
         <p>Have questions? Get in touch with our support team.</p>
         <button>Contact</button>
+    </div>
+
+    <!-- Form Link Button -->
+    <div class="form-link">
+        <a href="https://forms.gle/AuQ2C5cnS5cDuPu3A" target="_blank">
+            <button>Fill Out the Question Form</button>
+        </a>
     </div>
 </div>
 </body>
